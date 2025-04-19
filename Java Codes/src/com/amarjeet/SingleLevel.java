@@ -1,4 +1,4 @@
-package inheritance;
+package com.amarjeet;
 
 
 class Parent{
