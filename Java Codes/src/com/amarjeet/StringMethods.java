@@ -34,7 +34,7 @@ public class StringMethods {
 	
 		System.out.println(name.lastIndexOf("L")); //used to return the last occurrence of the given char or string from the given index (return -1 if not found)
 	
-		System.out.println(name.indexOf("L",3)); //used to return the last occurrence of the given char or string from the given index (return -1 if not found)
+		System.out.println(name.lastIndexOf("L",3)); //used to return the last occurrence of the given char or string from the given index (return -1 if not found)
 	
 		System.out.println(name.equals(" HelLo ")); //used to check if the string is equal to the given string (case sensitive)
 	
