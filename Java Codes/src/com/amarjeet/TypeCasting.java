@@ -5,11 +5,11 @@ public class TypeCasting {
 		
 		//program to encrypt a grade
 		char orig_grade = 'A';
-		char encrypted_grade = (char)(orig_grade+8);
+		char encrypted_grade = (char)(orig_grade+8); //typecasting
 		System.out.println("Grade: "+encrypted_grade);
 		
 		//program to decrypt a grade
-		char decrypted_grade = (char)(encrypted_grade-8);
+		char decrypted_grade = (char)(encrypted_grade-8); //typecasting
 		System.out.println("Grade: "+decrypted_grade);
 	}
 }
