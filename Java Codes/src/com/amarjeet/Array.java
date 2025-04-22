@@ -18,6 +18,11 @@ public class Array {
 		for(int j=(marks.length-1);j>=0;j--) {
 			System.out.println(marks[j]);
 		}
+		
+		System.out.println("Printing the array using for each loop: ");
+		for(int i:marks) {
+			System.out.println(i);
+		}
 
 	}
 
