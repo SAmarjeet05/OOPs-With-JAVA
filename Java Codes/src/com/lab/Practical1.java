@@ -1,6 +1,6 @@
-package com.amarjeet;
+package com.lab;
 
-public class CmdLineArgs {
+public class Practical1 {
 
 	public static void main(String[] args) {
 		

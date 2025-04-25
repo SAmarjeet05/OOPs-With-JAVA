@@ -1,7 +1,7 @@
-package com.amarjeet;
+package com.lab;
 import java.util.Scanner;
 
-public class JaggedArr {
+public class Practical2 {
 
 	public static void main(String[] args) {
 		int i,j,k;
