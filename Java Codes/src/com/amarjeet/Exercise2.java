@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Implementing a simple online library With the features of adding books, showing books, issuing and returning books
+ * Implementing a simple online library With the features of adding and deleting books, displaying books, issuing and returning books
  */
 
 class Library{
@@ -47,6 +47,7 @@ class Library{
 			String check = sc.next();
 			if(check.equalsIgnoreCase("y")) {
 				available_books.remove(name);
+				System.out.println("Book deleted successfully!!");
 			}else {
 				System.out.println("Failed to delete!!");
 			}			
