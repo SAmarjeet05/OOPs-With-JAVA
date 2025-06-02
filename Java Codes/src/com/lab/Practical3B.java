@@ -6,7 +6,6 @@ class Person2{
 	private int age;
 	private String country;
 	
-	//Getter and setter for name
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -14,7 +13,6 @@ class Person2{
 		return name;
 	}
 	
-	//Getter and setter for name
 	public void setAge(int age) {
 		this.age = age;
 	}
@@ -22,7 +20,6 @@ class Person2{
 		return age;
 	}
 		
-	//Getter and setter for name
 	public void setCountry(String country) {
 		this.country = country;
 	}

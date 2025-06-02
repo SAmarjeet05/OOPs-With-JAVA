@@ -6,7 +6,6 @@ import java.lang.annotation.Target;
 
 @interface TypeAnnoDemo{}
 
-//Main class 
 public class Practical12 {
 
  public static void main(String[] args) {
