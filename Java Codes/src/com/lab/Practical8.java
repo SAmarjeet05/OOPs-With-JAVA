@@ -36,3 +36,9 @@ public class Practical8 {
 	}
 
 }
+
+/*Output----
+Enter a positive number: -12
+Exception: Entered a Negative Value!!
+Program executed successfully
+*/

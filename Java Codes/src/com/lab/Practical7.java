@@ -20,21 +20,29 @@ public class Practical7 {
 		
 		System.out.println("Seaching A and modifying with Vi: "+name2.replace("A", "Vi"));
 		
-		//These classes are used to create a mutable string
-		// StringBuffer can be used in multiThreading
 		StringBuffer st = new StringBuffer("This is a string made with StringBuffer!! ");
 		st.append("and it is mutable.");
 		System.out.println("StringBuffer: "+st);
 		
-		
-		// StringBuilder can not be used in multiThreading
 		StringBuilder st1 = new StringBuilder("This is a string made with StringBuilder!! ");
 		st1.append("and it is mutable.");
 		System.out.println("StringBuilder: "+st1);
-		
-		
 		
 
 	}
 
 }
+
+/*Output----
+Enter your name: Nitesh Kumar
+Enter your 2nd name: Ajay
+The len of the entered String is: 12
+The string after concatinating is: Nitesh Kumar, how are you?
+The character at the 3th index is: e
+Comparing using using equals : false
+Seaching A and modifying with Vi: Vijay
+StringBuffer: This is a string made with StringBuffer!! and it is mutable.
+StringBuilder: This is a string made with StringBuilder!! and it is mutable.
+*/
+
+

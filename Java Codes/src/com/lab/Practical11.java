@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Practical11 {
 
 	    public static void main(String[] args) throws IOException {
-	        // 1. Command Line Arguments
 	        if (args.length > 0) {
 	            System.out.println("Command Line Argument: " + args[0]);
 	        } else {
@@ -13,9 +12,9 @@ public class Practical11 {
 	        }
 
 	        DataInputStream dis = new DataInputStream(System.in);
-	        System.out.print("Enter a string using DataInputStream: ");
-	        String disInput = dis.readLine();
-	        System.out.println("You entered (DataInputStream): " + disInput);
+	        System.out.print("Enter an integer using DataInputStream: ");
+	        int number = Integer.parseInt(new BufferedReader(new InputStreamReader(dis)).readLine());
+	        System.out.println("You entered (DataInputStream): " + number);
 
 	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	        System.out.print("Enter a string using BufferedReader: ");
@@ -41,3 +40,15 @@ public class Practical11 {
 
 
 }
+
+/*Output---
+ Command Line Argument: Hi
+Enter an integer using DataInputStream: 34
+You entered (DataInputStream): 34
+Enter a string using BufferedReader: String using bufferedReader
+You entered (BufferedReader): String using bufferedReader
+Enter a string using Scanner: String using scanner
+You entered (Scanner): String using scanner
+Enter a string using Console: String using console
+You entered (Console): String using console
+*/

@@ -44,3 +44,18 @@ public class Practical10 {
 	}
 
 }
+
+
+
+/*Output ----
+Odd number: 1
+Even number: 2
+Even number: 4
+Odd number: 3
+Even number: 6
+Even number: 8
+Odd number: 5
+Even number: 10
+Odd number: 7
+Odd number: 9
+*/

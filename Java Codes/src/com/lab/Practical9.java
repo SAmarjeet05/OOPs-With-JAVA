@@ -54,3 +54,22 @@ public class Practical9 {
 	}
 
 }
+
+/*Output-----
+Enter the values of matrix a:
+Enter the values of a[0][0]: 2
+Enter the values of a[0][1]: 3
+Enter the values of a[1][0]: 4
+Enter the values of a[1][1]: 5
+Enter the values of matrix b:
+Enter the values of b[0][0]: 13
+Enter the values of b[0][1]: 16
+Enter the values of b[1][0]: 17
+Enter the values of b[1][1]: 10
+Printing the value of A + B
+15	19	
+21	15	
+Printing the value of A - B
+-11	-13	
+-13	-5
+ */
