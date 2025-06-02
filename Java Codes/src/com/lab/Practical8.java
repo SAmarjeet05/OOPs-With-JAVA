@@ -11,9 +11,9 @@ class NegativeValue extends Exception{
 }
 
 
-public class Practical8A {
+public class Practical8 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NegativeValue{
 		
 		Scanner sc = new Scanner(System.in);
 		try {
@@ -28,6 +28,9 @@ public class Practical8A {
 			
 		}catch(NegativeValue e){
 			System.err.println("Exception: "+e.getMessage());
+		}
+		finally {
+			System.out.println("Program executed successfully");
 		}
 		
 	}
